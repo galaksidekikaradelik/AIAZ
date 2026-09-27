@@ -132,3 +132,23 @@
   height: 17px;
 }
 
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.footer-contact-info a,
+.footer-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-contact-info a:hover {
+  opacity: 0.8;
+}

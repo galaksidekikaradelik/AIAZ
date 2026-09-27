@@ -1,17 +1,23 @@
 {
+  
   "nav": {
     "home": "Home",
     "news": "News",
     "festival": "Festival",
     "gallery": "Media",
     "jury": "Jury",
-    "about": "About",
+    "about": "About Us",
     "contact": "Contact",
+
+    "aboutFestival": "About the Festival",
+    "program": "Program",
+
     "submitFilm": "Submit via FilmFreeway",
-    "changeTheme": "Change theme",
-    "changeLanguage": "Change language",
-    "openMenu": "Open menu"
+    "changeTheme": "Change Theme",
+    "changeLanguage": "Change Language",
+    "openMenu": "Open Menu"
   },
+
   "hero": {
     "title": "AI FILM FESTIVAL",
     "line1": "Where",

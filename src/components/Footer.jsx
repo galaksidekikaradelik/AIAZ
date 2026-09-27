@@ -6,6 +6,7 @@ import {
   FaPhone,
   FaInstagram,
   FaYoutube,
+  FaMapMarkerAlt,
 } from "react-icons/fa";
 
 import FilmFreewayIcon from "./FilmFreewayIcon";
@@ -28,10 +29,24 @@ function Footer() {
         <div className="footer-column">
           <h3>{t.footer.contact}</h3>
 
-          <p></p>
+          <div className="footer-contact-info">
+            <a href="mailto:aiazfilmfestival@gmail.com">
+              <FaEnvelope />
+              <span>info@aiazff.com</span>
+            </a>
+
+            <a href="tel:+994000000000">
+              <FaPhone />
+              <span>+994 50 351 40 24</span>
+            </a>
+
+            <div className="footer-location">
+              <FaMapMarkerAlt />
+              <span>Moskva 9, Yasamal, Bakı, AZ1012</span>
+            </div>
+          </div>
 
           <div className="footer-socials">
-
             <a
               href="https://www.facebook.com/aiazff"
               target="_blank"
@@ -39,20 +54,6 @@ function Footer() {
               aria-label="Facebook"
             >
               <FaFacebookF />
-            </a>
-
-            <a
-              href="mailto:aiazfilmfestival@gmail.com"
-              aria-label="Email"
-            >
-              <FaEnvelope />
-            </a>
-
-            <a
-              href="tel:+994000000000"
-              aria-label="Phone"
-            >
-              <FaPhone />
             </a>
 
             <a
@@ -81,7 +82,6 @@ function Footer() {
             >
               <FilmFreewayIcon size={20} />
             </a>
-
           </div>
         </div>
 
