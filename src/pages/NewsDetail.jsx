@@ -7,10 +7,23 @@ import Footer from "../components/Footer";
 
 import { newsItems } from "../data/newsData";
 import { useLanguage } from "../context/LanguageContext";
+import { translations } from "../data/translations";
+
+
+function renderFormattedText(text) {
+  const parts = text.split(/(\*\*.+?\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+}
 
 function NewsDetail() {
   const { id } = useParams();
   const { language, t } = useLanguage();
+  
 
   const item = newsItems.find((n) => String(n.id) === id);
 
@@ -65,7 +78,7 @@ function NewsDetail() {
 
             {item.content[language].map((paragraph, i) => (
               <Fragment key={i}>
-                <p>{paragraph}</p>
+                <p>{renderFormattedText(paragraph)}</p>
 
                 {item.inlineImage &&
                   item.inlineImageAfter === i && (
