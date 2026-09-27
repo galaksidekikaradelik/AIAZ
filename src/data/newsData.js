@@ -13,6 +13,7 @@ import news3Inline from "../assets/news3-inline.jpg";
 export const newsItems = [
   {
     id: 1,
+    date: "19 Noyabr 2025",
     title: {
       az: "Qafqazın və regionun ilk süni intellekt əsaslı film festivalı - “AİAZ”",
       en: "The Caucasus and the region's first AI-based film festival - “AIAZ”",
@@ -46,6 +47,7 @@ export const newsItems = [
   },
   {
     id: 2,
+    date: "16 Noyabr 2025",
     title: {
       az: "Süni İntellekt Və Kinonun Simbiozu: “AIAZ” Festivalı Uğurla Yekunlaşdı!",
       en: "The Symbiosis of Artificial Intelligence and Cinema: “AIAZ” Festival Concludes Successfully!",
@@ -93,6 +95,7 @@ export const newsItems = [
   },
   {
     id: 3,
+    date: "3 Noyabr 2025",
 
     title: {
       az: "AZƏRBAYCANIN İLK SÜNİ İNTELLEKTLƏ ÇƏKİLMİŞ FİLMLƏR FESTİVALI",
