@@ -1,6 +1,13 @@
 import news1 from "../assets/news1.jpg";
 import news2 from "../assets/2025/foto/_SMY2343.jpg";
 import news2Inline from "../assets/2025/foto/_SMY2500.jpg";
+import news2Slide1 from "../assets/2025/foto/_SMY2339.jpg";
+import news2Slide2 from "../assets/2025/foto/_SMY2368.jpg";
+import news2Slide3 from "../assets/2025/foto/_SMY2425.jpg";
+import news2Slide4 from "../assets/2025/foto/_SMY2464.jpg";
+import news2Slide5 from "../assets/2025/foto/_SMY2524.jpg";
+import news2Slide6 from "../assets/2025/foto/_SMY2611.jpg";
+import news2Slide7 from "../assets/2025/foto/_SMY2694.jpg";
 import news3Inline from "../assets/news3-inline.jpg";
 
 export const newsItems = [
@@ -35,9 +42,7 @@ export const newsItems = [
       ],
     },
     image: news1,
-    inlineImage: news3Inline,
-    inlineImageAfter: 2,
-    
+    images: [news1, news3Inline],
   },
   {
     id: 2,
@@ -74,9 +79,17 @@ export const newsItems = [
       ],
     },
     image: news2,
-    inlineImage: news2Inline,
-    inlineImageAfter: 3,
-    inlineImageWide: true,
+    images: [
+      news2,
+      news2Inline,
+      news2Slide1,
+      news2Slide2,
+      news2Slide3,
+      news2Slide4,
+      news2Slide5,
+      news2Slide6,
+      news2Slide7,
+    ],
   },
   {
     id: 3,

@@ -1,9 +1,9 @@
-import { Fragment } from "react";
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import ImageSlider from "../components/ImageSlider";
 
 import { newsItems } from "../data/newsData";
 import { useLanguage } from "../context/LanguageContext";
@@ -67,35 +67,24 @@ function NewsDetail() {
 
         <section className="news-detail">
           <div className="section-container news-detail-content">
-            {item.image && (
-              <div className="news-detail-image">
-                <img
-                  src={item.image}
-                  alt={item.title[language]}
-                />
-              </div>
+            {item.images ? (
+              <ImageSlider
+                images={item.images}
+                alt={item.title[language]}
+              />
+            ) : (
+              item.image && (
+                <div className="news-detail-image">
+                  <img
+                    src={item.image}
+                    alt={item.title[language]}
+                  />
+                </div>
+              )
             )}
 
             {item.content[language].map((paragraph, i) => (
-              <Fragment key={i}>
-                <p>{renderFormattedText(paragraph)}</p>
-
-                {item.inlineImage &&
-                  item.inlineImageAfter === i && (
-                    <div
-                      className={
-                        item.inlineImageWide
-                          ? "news-detail-image news-detail-image-inline news-detail-image-inline-wide"
-                          : "news-detail-image news-detail-image-inline"
-                      }
-                    >
-                      <img
-                        src={item.inlineImage}
-                        alt=""
-                      />
-                    </div>
-                  )}
-              </Fragment>
+              <p key={i}>{renderFormattedText(paragraph)}</p>
             ))}
           </div>
         </section>
