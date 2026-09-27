@@ -12,7 +12,7 @@ export const newsItems = [
     },
     excerpt: {
       az: "“AİAZ” Film Festivalı Qafqazın və regionun ilk süni intellekt əsaslı film festivalıdır. Festivalın təsisçisi Murad Şükürlü AZƏRTAC-a açıqlamasında festivalın gələcəyi və Azərbaycanda bu sahənin inkişafı haqqında danışıb.",
-      en: "Full article text will be added here later.",
+      en: "The “AIAZ” Film Festival is the first artificial intelligence-based film festival in the Caucasus and the region. In an interview with AZERTAC, the festival's founder, Murad Shukurlu, spoke about the future of the festival and the development of this field in Azerbaijan."
     },
     content: {
       az: [
@@ -23,8 +23,15 @@ export const newsItems = [
         "“Biz bu festivalla kifayətlənmirik. Sahənin qısa müddətdə təkmilləşməsi üçün şəbəkələşmənin əhəmiyyətini anlayırıq. Bu məqsədlə süni intellekt tərtibatçılarının bir araya gəldiyi, təcrübələrini paylaşdığı və təlim kurslarda iştirak etdiyi “ASİS” (Azərbaycan Süni İntellekt Sənətçiləri) platformasını yaradaraq sahə üzrə mütəxəssislərin yetişmə prosesini sürətləndirməyi hədəfləyirik”, - deyə festivalın təsisçisi əlavə edib.",
       ],
       en: [
-        "Full article text will be added here later.",
-        "A second paragraph will be added here as well.",
+        "The “AIAZ” Film Festival is the first artificial intelligence-based film festival in the Caucasus and the region. Presenting a unique fusion of cinema and technology, this platform brings together creative individuals and innovative technologies to showcase the cinematic experiences of the future. I believe that in five years, when an artificial intelligence category is added to A-category film festivals, the main award will be won by an Azerbaijani director. Interest in this field is exceptionally high in our country. Compared to other countries, the work of our AI creators stands out and demonstrates a refined artistic approach.",
+
+        "This was stated by Murad Shukurlu, founder of the “AIAZ” Film Festival, in an interview with AZERTAC.",
+
+        "He noted that if the country adapts quickly to this emerging field, it will be possible to train some of the world's best specialists. “I believe that the ‘AIAZ’ Film Festival will serve as a driving force in this process, helping to guide people who are interested in the field. Festival participants had the opportunity to explore works from other countries and exchange experiences by learning about the methods and techniques used by local creators.”",
+
+        "Murad Shukurlu also emphasized that interest in the festival was significant, and that most of the guests expressed a desire to participate as contestants next year. The panel discussions and masterclasses organized within the framework of the festival provided an excellent opportunity for this.",
+
+        "“We are not limiting ourselves to this festival alone. We understand the importance of networking for the rapid development of the field. For this purpose, we aim to accelerate the growth of professionals in the sector by creating the ‘ASIS’ (Azerbaijan Society of AI Artists) platform, where AI creators can come together, share their experiences, and participate in training programs,” the festival founder added."
       ],
     },
     image: news1,
@@ -73,14 +80,17 @@ export const newsItems = [
   },
   {
     id: 3,
+
     title: {
       az: "AZƏRBAYCANIN İLK SÜNİ İNTELLEKTLƏ ÇƏKİLMİŞ FİLMLƏR FESTİVALI",
-      en: "AIAZ Film Festival 2026 Announced",
+      en: "AZERBAIJAN'S FIRST AI FILM FESTIVAL",
     },
+
     excerpt: {
       az: "Bu il kino aləmində yeni bir başlanğıcın təməli qoyulur – “AIAZ” Beynəlxalq Qısa Filmlər Festivalı ilk dəfə keçirilir. Festivalın məqsədi həm ənənəvi üsullarla çəkilmiş, həm də süni intellekt (AI) texnologiyaları ilə hazırlanmış qısa filmləri bir araya gətirməkdir.",
-      en: "Full article text will be added here later.",
+      en: "This year marks the beginning of a new chapter in cinema with the inaugural AIAZ International Short Film Festival. The festival aims to bring together both traditionally produced short films and films created using Artificial Intelligence (AI) technologies.",
     },
+
     content: {
       az: [
         "Bu il kino aləmində yeni bir başlanğıcın təməli qoyulur – “AIAZ” Beynəlxalq Qısa Filmlər Festivalı ilk dəfə keçirilir. Festivalın məqsədi həm ənənəvi üsullarla çəkilmiş, həm də süni intellekt (AI) texnologiyaları ilə hazırlanmış qısa filmləri bir araya gətirərək tamaşaçılara və mütəxəssislərə yeni yaradıcılıq nəfəsi təqdim etməkdir.",
@@ -96,11 +106,23 @@ export const newsItems = [
         "Festivalın təsisçisi Murad Şükürlü, direktoru Sahil Məmmədov, art direktoru Mirvüqar Abdulov, kreativ direktoru Məleykə Məmmədovadır.",
         "“AIAZ” Beynəlxalq Qısa Filmlər Festivalı – qısa filmlərin səsini dünya auditoriyasına çatdırmaq üçün yeni bir platformadır.",
       ],
+
       en: [
-        "Full article text will be added here later.",
-        "A second paragraph will be added here as well.",
+        "This year marks the beginning of a new chapter in the world of cinema with the inaugural AIAZ International Short Film Festival. The festival aims to bring together both traditionally produced short films and films created using Artificial Intelligence (AI) technologies, offering audiences and industry professionals a fresh perspective on storytelling and creativity.",
+        "In its debut year, AIAZ seeks to spark a new wave of innovation in national cinema. The festival's primary mission is to showcase emerging local AI artists on the global stage and introduce their work to international audiences. AIAZ is envisioned not only as a film festival but also as a platform and creative workshop where technology and artistic expression converge.",
+        "The submission deadline is October 15. Participants may submit their films exclusively through the FilmFreeway platform.",
+        "Festival Categories",
+        "• AI-Generated Films",
+        "• Traditionally Produced Films",
+        "Films in both categories will be evaluated within the National and International Competition sections.",
+        "Participation Requirements",
+        "• Participation in the festival is completely free of charge.",
+        "• There are no age or genre restrictions.",
+        "The festival was founded by Murad Shukurlu. The Festival Director is Sahil Mammadov, the Art Director is Mirvugar Abdulov, and the Creative Director is Maleyka Mammadova.",
+        "The AIAZ International Short Film Festival is a new platform dedicated to bringing the voices of short films to audiences around the world.",
       ],
     },
+
     image: news1,
   },
 ];

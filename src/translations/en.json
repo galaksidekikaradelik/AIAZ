@@ -240,36 +240,43 @@
         "description": "Before participating in the festival, please review the submission requirements and participation conditions.",
 
         "rule1": {
-            "title": "Film Requirements",
-            "items": [
-            "Submitted films must have been produced within the last two years.",
-            "Films must be no shorter than 1 minute and no longer than 30 minutes.",
-            "Films must be submitted with English subtitles in .srt format."
-            ]
-        },
+          "title": "Film Requirements",
+          "items": [
+          "The festival is dedicated to short films.",
+          "The running time of the film must not exceed 30 minutes.",
+          "Both AI-generated films and traditionally produced films are accepted in their respective competition categories.",
+          "Films in languages other than English must be submitted with English subtitles."
+          ]
+          },
 
         "rule2": {
-            "title": "Submission Materials",
-            "items": [
-            "A trailer and poster must be provided for each film.",
-            "The director's full name, short biography, and photo must be included.",
-            "Submitted materials may be used for festival promotion and presentation purposes."
-            ]
+          "title": "Submission Materials",
+          "items": [
+          "A trailer, poster, and a short synopsis must be provided for each film.",
+          "The director’s full name, short biography, and photograph must be included with the submission.",
+          "Submitted materials may be used in the festival programme, catalogue, and promotional communications."
+          ]
         },
 
         "rule3": {
-            "title": "AI Films",
-            "items": [
-            "The artificial intelligence tools used during production must be disclosed.",
-            "A detailed list of the platforms and models used must be provided.",
-            "A director may submit only one film in AI and traditional categories."
-            ]
+          "title": "AI Films",
+          "items": [
+          "AI-generated films will be evaluated by a professional Human Jury.",
+          "Traditionally produced films will be evaluated by the AIAZ Artificial Intelligence Jury.",
+          "The main AI tools and platforms used in the creation of AI-generated films must be disclosed during submission.",
+          "Films will be evaluated within both local and international competition categories."
+          ]
         },
 
         "rule4": {
-            "title": "Agreement",
-            "description": "Any person submitting a film to the festival is considered to have agreed to all of the conditions stated above."
+          "title": "Participation Terms",
+          "items": [
+          "The submitter must hold all necessary copyright and usage rights required for the screening of the film.",
+          "Selected films may be screened as part of the festival programme in physical or online formats.",
+          "Submitting an application constitutes acceptance of all festival rules, terms, and conditions."
+          ]
         }
+
     },
     "contact": {
         "informationTitle": "Contact Information",
