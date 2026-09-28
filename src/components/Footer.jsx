@@ -30,12 +30,12 @@ function Footer() {
           <h3>{t.footer.contact}</h3>
 
           <div className="footer-contact-info">
-            <a href="mailto:aiazfilmfestival@gmail.com">
+            <a href="mailto:info@aiazff.com">
               <FaEnvelope />
               <span>info@aiazff.com</span>
             </a>
 
-            <a href="tel:+994000000000">
+            <a href="tel:+994503514024">
               <FaPhone />
               <span>+994 50 351 40 24</span>
             </a>
