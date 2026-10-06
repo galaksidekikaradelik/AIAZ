@@ -3,7 +3,7 @@ import { Eye, Download } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import agendaCover from "../assets/agenda-cover.jpg";
+import agendaCover from "../assets/agenda-cover.webp";
 
 import { useLanguage } from "../context/LanguageContext";
 

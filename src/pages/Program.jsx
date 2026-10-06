@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useLanguage } from "../context/LanguageContext";
 
-import cover2025 from "../assets/agenda-cover.jpg";
+import cover2025 from "../assets/agenda-cover.webp";
 
 function Program() {
   const { t } = useLanguage();

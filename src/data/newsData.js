@@ -1,11 +1,19 @@
-import news1 from "../assets/news1.jpg";
-import news2 from "../assets/2025/foto/_SMY2343.jpg";
-import news2Inline from "../assets/2025/foto/_SMY2500.jpg";
-import news3Inline from "../assets/news3-inline.jpg";
+import news1 from "../assets/news1.webp";
+import news2 from "../assets/2025/foto/_SMY2343.webp";
+import news2Inline from "../assets/2025/foto/_SMY2500.webp";
+import news2Slide1 from "../assets/2025/foto/_SMY2339.webp";
+import news2Slide2 from "../assets/2025/foto/_SMY2368.webp";
+import news2Slide3 from "../assets/2025/foto/_SMY2425.webp";
+import news2Slide4 from "../assets/2025/foto/_SMY2464.webp";
+import news2Slide5 from "../assets/2025/foto/_SMY2524.webp";
+import news2Slide6 from "../assets/2025/foto/_SMY2611.webp";
+import news2Slide7 from "../assets/2025/foto/_SMY2694.webp";
+import news3Inline from "../assets/news3-inline.webp";
 
 export const newsItems = [
   {
     id: 1,
+    date: "19 Noyabr 2025",
     title: {
       az: "Qafqazın və regionun ilk süni intellekt əsaslı film festivalı - “AİAZ”",
       en: "The Caucasus and the region's first AI-based film festival - “AIAZ”",
@@ -35,12 +43,11 @@ export const newsItems = [
       ],
     },
     image: news1,
-    inlineImage: news3Inline,
-    inlineImageAfter: 2,
-    
+    images: [news1, news3Inline],
   },
   {
     id: 2,
+    date: "16 Noyabr 2025",
     title: {
       az: "Süni İntellekt Və Kinonun Simbiozu: “AIAZ” Festivalı Uğurla Yekunlaşdı!",
       en: "The Symbiosis of Artificial Intelligence and Cinema: “AIAZ” Festival Concludes Successfully!",
@@ -54,10 +61,10 @@ export const newsItems = [
         "Qafqaz regionunda ilkə imza atan və böyük maraqla qarşılanan “AIAZ” Beynəlxalq Qısa Filmlər Festivalı 15-16 noyabrda “Salaam Cinema”-da uğurla həyata keçirildi. Festival iki gün ərzində kino sənətində Süni İntellekt (Sİ) dövrünün başlanğıcını qeyd etdi və sənət ilə texnologiyanın simbiozunu nümayiş etdirdi.",
         "Əsas fərqləndirici xüsusiyyət olan süni intellektlə yaradılmış filmlərin insan mühakiməsi ilə qiymətləndirilməsi prosesi iştirakçılar tərəfindən xüsusi maraqla qarşılandı. Film nümayişlərindən əlavə olaraq süni intellekt mütəxəssisi Ümid Salay tərəfindən ustad dərsi, ənənəvi kinoya süni intellekt həlləri gətirən “Jafjab” startapının təqdimatı və mükafatlandırma mərasimi iştirakçılar tərəfindən maraqla qarşılandı.",
         "Mükafatlandırma mərasimində müsabiqə proqramının ən yaxşıları elan edildi. Qalib layihələr, süni intellektin yaratdığı imkanlardan səmərəli istifadə etməklə yanaşı, həm də yüksək bədii dəyərə malik olduqlarını sübut etdilər.",
-        "“Süni intellektlə hazırlanmış ən yaxşı yerli qısametrajlı film” nominasiyasında Rəvan Muradovun “KhatAI” filmi qalib elan edildi.",
-        "“Süni intellektlə hazırlanmış ən yaxşı beynəlxalq qısametrajlı film” mükafatına İqor Xarlamovun “Tək yol” filmi layiq görüldü.",
-        "Festivalın komandasının qərarı ilə festivalın Xüsusi Mükafatı Aişə Hacıyevanın “Ana yurd” filminə təqdim edildi.",
-        "Ekoloji mövzulara toxunanlar arasında “Ekoloji Təsir Mükafatı” yerli müsabiqədə Ruslan İbrahimlinin “Güzgü: İnsanlığın Əks Tərəfi” filminə, Beynəlxalq müsabiqədə isə Piter Vadoçun “İqlim böhranı” filminə verildi.",
+        "“Süni intellektlə hazırlanmış ən yaxşı yerli qısametrajlı film” nominasiyasında Rəvan Muradovun **“KhatAI”** filmi qalib elan edildi.",
+        "“Süni intellektlə hazırlanmış ən yaxşı beynəlxalq qısametrajlı film” mükafatına İqor Xarlamovun **“Tək yol”** filmi layiq görüldü.",
+        "Festivalın komandasının qərarı ilə festivalın Xüsusi Mükafatı Aişə Hacıyevanın **“Ana yurd”** filminə təqdim edildi.",
+        "Ekoloji mövzulara toxunanlar arasında “Ekoloji Təsir Mükafatı” yerli müsabiqədə Ruslan İbrahimlinin **“Güzgü: İnsanlığın Əks Tərəfi”** filminə, Beynəlxalq müsabiqədə isə Piter Vadoçun **“İqlim böhranı”** filminə verildi.",
         "“AIAZ” Film Festivalı Qafqazda kino sənayesi üçün yeni bir səhifə açaraq sənət və texnologiyanın birləşmə potensialını nümayiş etdirdi və bölgədə bu mövzuda aparılan ilk genişmiqyaslı tədbir olaraq yadda qaldı.",
         "Festivalın dəstəkçiləri sırasında “Eco hub” ekoloji platforması, “Fors” MMC yer alır. Festivalın təsisçisi Murad Şükürlü, direktoru Sahil Məmmədov, vizual tərtibatçısı Mirvüqar Abdulov, kreativ direktoru Məleykə Məmmədova, media üzrə rəhbəri Səməd Ağayevdir.",
       ],
@@ -65,21 +72,30 @@ export const newsItems = [
         "Marking a first in the Caucasus region and drawing great interest, the “AIAZ” International Short Film Festival was successfully held on November 15–16 at Salaam Cinema in Baku. Over two days, the festival celebrated the beginning of the Artificial Intelligence (AI) era in cinema and showcased the creative fusion of art and technology.",
         "The festival's standout feature was the evaluation of AI-generated films by a human jury, which attracted special attention from participants. In addition to film screenings, the program included a masterclass by AI specialist Ümid Salay, a presentation by the Jafjab startup bringing AI solutions to traditional cinema, and an award ceremony, all of which were highly appreciated by attendees.",
         "During the awards ceremony, the best projects of the competition program were announced. Winning projects not only demonstrated creative use of AI capabilities but also proved their high artistic value.",
-        "The award for “Best National AI-generated Short Film” went to Ravan Muradov's “KhatAI”.",
-        "The award for “Best International AI-generated Short Film” was given to Igor Harlamov's “One Way”.",
-        "By decision of the festival team, the Special Award was presented to Aişe Haciyeva's “Motherland”.",
-        "Among the works addressing ecological themes, the “Ecological Impact” award in the local competition went to Ruslan Ibrahimli's “Mirror: The Other Side of Humanity”, while in the international category it was awarded to Peter Vadoç's “Climate Crisis”.",
+        "The award for “Best National AI-generated Short Film” went to Ravan Muradov's **“KhatAI”**.",
+        "The award for “Best International AI-generated Short Film” was given to Igor Harlamov's **“One Way”**.",
+        "By decision of the festival team, the Special Award was presented to Aişe Haciyeva's **“Motherland”**.",
+        "Among the works addressing ecological themes, the “Ecological Impact” award in the local competition went to Ruslan Ibrahimli's **“Mirror: The Other Side of Humanity”**, while in the international category it was awarded to Peter Vadoç's **“Climate Crisis”**.",
         "The inaugural “AIAZ” Film Festival opened a new chapter for the film industry in the Caucasus, demonstrating the potential of combining art and technology, and stood out as the first large-scale event of its kind in the region.",
         "Festival supporters included the ecological platform Eco Hub and the company Fors. The festival was founded by Murad Shukurlu, directed by Sahil Mammadov, with visual design by Mirvugar Abdulov, creative direction by Maleyka Mammadova, and media management by Samed Aghayev.",
       ],
     },
     image: news2,
-    inlineImage: news2Inline,
-    inlineImageAfter: 3,
-    inlineImageWide: true,
+    images: [
+      news2,
+      news2Inline,
+      news2Slide1,
+      news2Slide2,
+      news2Slide3,
+      news2Slide4,
+      news2Slide5,
+      news2Slide6,
+      news2Slide7,
+    ],
   },
   {
     id: 3,
+    date: "3 Noyabr 2025",
 
     title: {
       az: "AZƏRBAYCANIN İLK SÜNİ İNTELLEKTLƏ ÇƏKİLMİŞ FİLMLƏR FESTİVALI",
@@ -126,5 +142,3 @@ export const newsItems = [
     image: news1,
   },
 ];
-
-

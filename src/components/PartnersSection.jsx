@@ -1,7 +1,7 @@
 import { useLanguage } from "../context/LanguageContext";
 
-import partner1Logo from "../assets/partners/auth_logo.png";
-import partner2Logo from "../assets/partners/logo_en.png";
+import partner1Logo from "../assets/partners/auth_logo.webp";
+import partner2Logo from "../assets/partners/logo_en.webp";
 
 function PartnersSection() {
   const { t } = useLanguage();
