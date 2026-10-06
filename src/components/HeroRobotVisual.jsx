@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
-import bodyImg from "../assets/robot-body.png";
-import bodyGlowImg from "../assets/robot-body-glow.png";
-import headImg from "../assets/robot-head.png";
-import headGlowImg from "../assets/robot-head-glow.png";
+import bodyImg from "../assets/robot-body.webp";
+import bodyGlowImg from "../assets/robot-body-glow.webp";
+import headImg from "../assets/robot-head.webp";
+import headGlowImg from "../assets/robot-head-glow.webp";
 
 const NATIVE_W = 692;
 const NATIVE_H = 1510;

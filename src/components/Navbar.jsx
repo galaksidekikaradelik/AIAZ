@@ -11,8 +11,8 @@ import {
 } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
-import logoLight from "../assets/aiazlogomain.png";
-import logoDark from "../assets/aiazlogoag.png";
+import logoLight from "../assets/aiazlogomain.webp";
+import logoDark from "../assets/aiazlogoag.webp";
 
 function Navbar() {
   const [theme, setTheme] = useState(() => {

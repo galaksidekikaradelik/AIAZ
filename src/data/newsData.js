@@ -1,14 +1,14 @@
-import news1 from "../assets/news1.jpg";
-import news2 from "../assets/2025/foto/_SMY2343.jpg";
-import news2Inline from "../assets/2025/foto/_SMY2500.jpg";
-import news2Slide1 from "../assets/2025/foto/_SMY2339.jpg";
-import news2Slide2 from "../assets/2025/foto/_SMY2368.jpg";
-import news2Slide3 from "../assets/2025/foto/_SMY2425.jpg";
-import news2Slide4 from "../assets/2025/foto/_SMY2464.jpg";
-import news2Slide5 from "../assets/2025/foto/_SMY2524.jpg";
-import news2Slide6 from "../assets/2025/foto/_SMY2611.jpg";
-import news2Slide7 from "../assets/2025/foto/_SMY2694.jpg";
-import news3Inline from "../assets/news3-inline.jpg";
+import news1 from "../assets/news1.webp";
+import news2 from "../assets/2025/foto/_SMY2343.webp";
+import news2Inline from "../assets/2025/foto/_SMY2500.webp";
+import news2Slide1 from "../assets/2025/foto/_SMY2339.webp";
+import news2Slide2 from "../assets/2025/foto/_SMY2368.webp";
+import news2Slide3 from "../assets/2025/foto/_SMY2425.webp";
+import news2Slide4 from "../assets/2025/foto/_SMY2464.webp";
+import news2Slide5 from "../assets/2025/foto/_SMY2524.webp";
+import news2Slide6 from "../assets/2025/foto/_SMY2611.webp";
+import news2Slide7 from "../assets/2025/foto/_SMY2694.webp";
+import news3Inline from "../assets/news3-inline.webp";
 
 export const newsItems = [
   {
