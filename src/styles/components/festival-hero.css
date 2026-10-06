@@ -52,10 +52,10 @@
   text-align: center;
 }
 
-.hero-title {
-  font-family: var(--font-display);
-  font-weight: 500;
-
+.fest-hero-title {
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var( --color-text);
   font-size: clamp(52px, 7vw, 96px);
   line-height: 0.98;
   letter-spacing: -0.02em;
@@ -166,7 +166,7 @@
     margin-bottom: 50px;
   }
 
-  .hero-title {
+  .fest-hero-title {
     font-size: clamp(48px, 13vw, 76px);
     line-height: 0.94;
   }
@@ -194,7 +194,7 @@
 }
 
 @media (max-width: 500px) {
-  .hero-title {
+  .fest-hero-title {
     letter-spacing: -0.005em;
   }
 
@@ -204,7 +204,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-title,
+  .fest-hero-title,
   .festival-hero-content p,
   .festival-buttons {
     animation: none;

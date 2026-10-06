@@ -21,7 +21,7 @@ function FestivalHero() {
 
       <div className="festival-hero-container">
         <div className="festival-hero-content">
-          <h1 className="hero-title">
+          <h1 className="fest-hero-title">
             {t.festivalHero.titleLine1}
             <br />
             {t.festivalHero.titleLine2}
